@@ -28,5 +28,7 @@ public class Cubos {
     return new Rectangle2D.Double(x,y,ancho,alto);
     
     }
+      
+  
    
 }

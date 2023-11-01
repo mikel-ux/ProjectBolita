@@ -39,7 +39,7 @@ public class Bolita {
     public void mover(Rectangle limites, boolean colision){
        
         if(y==700){
-        x=0;
+        x=300;
         y=0;
         }
         
@@ -55,18 +55,19 @@ public class Bolita {
       maxalt=false;
       finsalto=false;
       }
+      
       if(colision==false){
       aire=true;
       }
       
-    if(EventoTeclado.der==true && EventoTeclado.iz==false){
+   /* if(EventoTeclado.der==true && EventoTeclado.iz==false){
     x++;
     }
     
     if(EventoTeclado.der==false && EventoTeclado.iz==true){
     x--;
     }
-    
+    */
     if(EventoTeclado.up==true && maxalt==false && finsalto==false){
         y-=2;
         saltosec++;
