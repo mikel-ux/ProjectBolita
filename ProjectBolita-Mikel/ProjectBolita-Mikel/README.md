@@ -1,2 +1,0 @@
-# ProjectBolita
-Bolita + movimiento = projectBolita
