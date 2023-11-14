@@ -1,0 +1,8 @@
+src\GamePanel.class
+src\KeyHandler.class
+tiles\Tile.class
+src\Main.class
+src\ColisionChecker.class
+tiles\TileManager.class
+entity\Player.class
+entity\Entity.class
